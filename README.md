@@ -1,6 +1,8 @@
 # stashly-web
 
-Situs Stashly: halaman utama, Kebijakan Privasi, dan Ketentuan Layanan. HTML dan CSS statis, tanpa proses build.
+Situs Stashly: halaman utama, Kebijakan Privasi, dan Ketentuan Layanan. HTML dan CSS statis, tanpa proses build. Animasi gulir memakai AOS 2.3.4 yang disimpan di `assets/`, jadi tidak bergantung pada CDN.
+
+Alamat kanonik, Open Graph, dan `sitemap.xml` ditulis untuk `https://fauzi.is-a.dev/stashly/`. Kalau situs pindah alamat, ganti nilai itu di ketiga berkas HTML dan di `sitemap.xml`.
 
 Semua tautan di dalamnya relatif, jadi situs ini jalan di alamat mana pun, termasuk `https://fauzi.is-a.dev/stashly/`.
 

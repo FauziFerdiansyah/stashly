@@ -4,20 +4,35 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kebijakan Privasi Stashly</title>
-<meta name="description" content="Data apa yang ditangani Stashly dan ke mana data itu pergi.">
-<meta property="og:title" content="Kebijakan Privasi Stashly">
-<meta property="og:description" content="Data apa yang ditangani Stashly dan ke mana data itu pergi.">
+<meta name="description" content="Data apa yang ditangani aplikasi Stashly, termasuk Google Drive, dan ke mana data itu pergi.">
+<meta name="author" content="Fauzi Ferdiansyah">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://fauzi.is-a.dev/stashly/privacy/">
+<meta property="og:site_name" content="Stashly">
+<meta property="og:locale" content="id_ID">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://fauzi.is-a.dev/stashly/assets/screen-home.png">
+<meta property="og:url" content="https://fauzi.is-a.dev/stashly/privacy/">
+<meta property="og:title" content="Kebijakan Privasi Stashly">
+<meta property="og:description" content="Data apa yang ditangani aplikasi Stashly, termasuk Google Drive, dan ke mana data itu pergi.">
+<meta property="og:image" content="https://fauzi.is-a.dev/stashly/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Beranda aplikasi Stashly di ponsel Android">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kebijakan Privasi Stashly">
+<meta name="twitter:description" content="Data apa yang ditangani aplikasi Stashly, termasuk Google Drive, dan ke mana data itu pergi.">
+<meta name="twitter:image" content="https://fauzi.is-a.dev/stashly/assets/og.png">
 <meta name="theme-color" content="#f8f1e4" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0d0f14" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/svg+xml" href="../assets/stashly-mark.svg">
 <link rel="preload" href="../assets/plus-jakarta-sans.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../assets/aos.css">
 <link rel="stylesheet" href="../styles.css">
+<noscript><style>[data-aos]{opacity:1!important;transform:none!important}</style></noscript>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Stashly", "operatingSystem": "Android 8.0+", "applicationCategory": "ProductivityApplication", "description": "Aplikasi Android untuk menyimpan tautan, gambar, dan catatan dari aplikasi mana pun ke pustaka pribadi di ponsel.", "url": "https://fauzi.is-a.dev/stashly/", "image": "https://fauzi.is-a.dev/stashly/assets/og.png", "inLanguage": ["id", "en"], "offers": {"@type": "Offer", "price": "0", "priceCurrency": "IDR"}, "author": {"@type": "Person", "name": "Fauzi Ferdiansyah", "url": "https://fauzi.is-a.dev/"}}</script>
 </head>
 <body>
 <a class="skip" href="#isi">Langsung ke isi</a>
-
 <header class="site">
   <div class="wrap">
     <a class="brand" href="../"><img src="../assets/stashly-mark.svg" alt="" width="40" height="40">Stashly</a>
@@ -88,5 +103,13 @@
     </ul>
   </div>
 </footer>
+<script src="../assets/aos.js" defer></script>
+<script>
+  // Reveal sections once as they scroll in; skipped entirely when the visitor prefers reduced motion.
+  window.addEventListener("DOMContentLoaded", function () {
+    var still = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (window.AOS) AOS.init({ once: true, duration: 600, offset: 60, easing: "ease-out-cubic", disable: still });
+  });
+</script>
 </body>
 </html>
